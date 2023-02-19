@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Marek Beckmann | Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Hi, my name is Marek Beckmann and I'm a Linux System Administrator and Cyber Security student from Germany." />
+  <!--=======================================================================================================================-->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic"
+    rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--=======================================================================================================================-->
+  <link rel="icon" type="image/x-icon"
+    href="https://static.bektroid-studios.de/res/drawable/_marekbeckmann.de/logo_white_darkbg_512x.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/vendor/alerts/style.css" />
+  <!--=======================================================================================================================-->
+</head>
+
+<body>
+  <nav class="container-fluid nav">
+    <div class="container cf">
+      <div class="brand">
+        <a href="#splash">Marek Beckmann</a>
+      </div>
+      <i class="fa fa-bars nav-toggle"></i>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills &amp; Experience</a></li>
+        <li><a href="#knowledge">Knowledge</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="./legalnotice/de/" target="_blank" id="legalnotice">Legal Notice <i
+              class="fas fa-external-link-alt fa-xs" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid splash" id="splash">
+    <div class="container">
+      <img src="https://static.bektroid-studios.de/res/drawable/_marekbeckmann.de/logo_light_transparent_512x.png"
+        alt="Marek Beckmann" class="profile-image" />
+      <h1>Marek Beckmann</h1>
+      <span class="lead">Linux System Administrator</span>
+    </div>
+  </div>
+
+  <div class="container-fluid intro" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a systems administrator with a passion for Linux and open source.
+        I'm currently working as a systems administrator at the
+        <a href="https://www.heidelberg-university-hospital.com/" target="_blank">Heidelberg University Hospital</a>
+        and I'm also a student in Cyber Security at the
+        <a href="https://www.hs-mannheim.de/" target="_blank">University of Applied Sciences in Mannheim</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="container-fluid features" id="skills">
+    <div class="container cf">
+      <h2>Skills &amp; Experience</h2>
+      <div class="col-3">
+        <h3>Linux System Administration</h3>
+        <p>
+          Active Linux user since over a decade, with a strong passion for
+          open-source software. Experienced in the usage of all major Linux
+          server distributions, such as Debian, Ubuntu, Redhat, Centos etc.
+        </p>
+      </div>
+      <div class="col-3">
+        <h3>Scripting and Automation</h3>
+        <p>
+          Skilled in various DevOps tools and scripts, such as Ansible and
+          Jenkins for automation. Experience in scripting languages such as
+          Bash, Python and Pearl. Extensive experience with various monitoring
+          solutions, such as Icinga, Prometheus and Zabbix, aswell as Grafana.
+        </p>
+      </div>
+      <div class="col-3">
+        <h3>Cyber Security</h3>
+        <p>
+          As a student in Cyber Security, I have an extensive knowledge of the
+          world of IT Security. I have a strong background in the use of tools
+          such as OWASP, Nmap, Nessus, and more. I continuously stay on top of
+          current technology and advancements in the field.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class=" portfolio" id="knowledge">
+    <canvas id="c"></canvas>
+  </div>
+
+  <div class="container-fluid contact" id="contact">
+    <div class="container">
+      <form>
+        <h2>Contact Me</h2>
+        <input type="text" placeholder="Name" id="name" name="name" class="full-half" required />
+        <input type="email" placeholder="Email" id="email" name="email" class="full-half" required />
+        <input type="text" placeholder="Subject" id="subject" name="subject" />
+        <textarea placeholder="Message" id="usermessage" name="usermessage" required></textarea>
+        <input type="submit" value="Send" id="submitbtn" />
+      </form>
+    </div>
+  </div>
+
+  <footer class="container-fluid footer">
+    <div class="container">
+      <a href="https://github.com/marekbeckmann" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://linkedin.com/in/marekbeckmann" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="https://play.google.com/store/apps/dev?id=6792952036752848278" target="_blank">
+        <i class="fab fa-google-play" aria-hidden="true"></i>
+      </a>
+      <a href="https://docs.marekbeckmann.de/" target="_blank">
+        <i class="fas fa-blog" aria-hidden="true"></i>
+      </a>
+    </div>
+
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/script-words.js"></script>
+  <script src="assets/vendor/alerts/cute-alert.js"></script>
+  <script src="assets/js/validation.js"></script>
+</body>
+</html>
